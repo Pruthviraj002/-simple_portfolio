@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.row{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#hero .smallImg{
+    /* padding: 15rem; */
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+#hero .small{
+    background-color: rgba(0, 0, 0, 0.765);
+}
+
+#hero a ,h3{
+    /* background-color: red; */
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+}
+
+#hero i{
+    color: white;
+}
+
+#hero .icon:hover{
+    color: aqua;
+}
+
+#hero .big_img{
+    background-position: center;
+    background-size: cover;
+    /* height: 99vh; */
+}
+
+#hero .icons1{
+        height: 2.1rem;
+    width: 2.5rem;
+    background-color:rgba(0, 0, 0, 0.38);
+    /* font-size: 4rem; */
+    border-radius: 50%;
+    /* color: red; */
+}
+
+#hero .icons1:hover{
+    /* color: aqua; */
+    background-color: aqua;
+}
+
+#hero img{
+    height:90%;
+    width: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#hero span{
+    font-size: 2rem;
+}
+
+#carouselExampleIndicators{
+    margin-top: 2rem;
+}
+
+.box span{
+    /* color: black;
+     */
+     /* font-weight:0.1 ; */
+
+    }
+
+#hero .box{
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313 ;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+/* #hero h1{
+    font-size: 5rem;
+} */
+
+
+.wrapeer .sidenav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 25.5vw;
+    height: 100vh;
+    background: #231f20;
+}
+.wrapeer .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    border-bottom: 1px dotted white;
+    margin-bottom: 50px;
+}
+.wrapeer .sidenav ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(0, 0, 0.1);
+    border-top: 1ps solid rgb(255,255, 255, 0.1);
+}
+
+.wrapeer .sidenav .social-media{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    
+}
+
+.wrapeer .sidenav .social-media a{
+    margin: 0 10px;
+    background: #575051;
+    border-radius:5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapeer .sidenav .social-media a i{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.wrapeer .sidenav .social-media a:hover{
+ transform: rotate(360deg);
+    transition: 2s; 
+}
